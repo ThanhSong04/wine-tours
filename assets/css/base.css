@@ -1,0 +1,27 @@
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --border-color: #dbdbdb;
+    --primary-color: #3fd0d4;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+::-moz-selection {
+    background: #3fd0d4;
+    color: #fff;
+}
+
+::selection {
+    background: #3fd0d4;
+    color: #fff;
+}
+
+

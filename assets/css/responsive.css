@@ -1,0 +1,119 @@
+/* PC */
+@media only screen and (min-width: 64em) {
+    .hidden-pc {
+        display: none;
+    }
+
+}
+/* mobile & tablet */
+@media only screen and (max-width: 63.9499em){   
+    .hidden-mobile-tablet{
+        display: none;
+    }
+    .header-mobile{
+        height: 69px;
+        width: 100%;
+        background-color: var(--primary-color);
+    }
+    .header-mobile__wrapper{
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        height: 69px;
+        width: 600px;
+    }
+    .header-mobile__nav-bars{
+        font-size: 2rem;
+        color: var(--white-color);
+        cursor: pointer;        
+    }
+    
+    .header-mobile__logo img{
+        width: 113px;
+    }
+    .container__sliders{
+        margin-top: -260px;
+        height: 356px;
+        margin-bottom: 200px;
+    }
+
+    .best-tours__sub-heading{
+        width: 100%;
+    }
+
+
+    .footer{
+        margin-top: 40rem;
+    }
+
+    
+    
+}   
+/* tablet */
+@media only screen and (min-width: 46.25em) and (max-width:63.9375em){
+     .grid.wide {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .hidden-tablet{
+        display: none;
+    }
+    .slider-left-item{
+        width: 384px;
+        height: 355px;
+    }
+    .slider-right-item{
+        width: 186px;
+        height: 355px;
+    }
+    .popular-tour__img img{
+        transform: translateX(-58%);
+    }
+    
+    
+}
+
+/* mobile */
+@media only screen and (max-width: 46.1875em){
+    .grid.wide {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .hidden-mobile{
+        display: none;
+    }
+    .header-mobile__wrapper{
+        width: 300px;
+    }
+    .container__nav-mobile-list{
+        width: 300px;
+    }
+    .slider-left-item{
+        width: 384px;
+        height: 355px;
+    }
+    .slider-right-item {
+        height: 574px;
+        width: 300px;
+        bottom: 0;
+    }
+    .container__sliders {
+        height: 968px;
+        width: 300px;
+    }
+    .container-datas__img img{
+        width: 288px;
+        margin-bottom: 40px;
+    }
+    .popular-tour__img img{
+        
+        transform: translateX(-52%);
+    }
+
+    .footer__wrapper-content{
+        text-align: center;
+    }
+    
+}
+
